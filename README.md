@@ -33,6 +33,32 @@ This project demonstrates a comprehensive **DevOps CI/CD pipeline** implementati
 
 ---
 
+## 📸 Project Screenshots & Deployment Proof
+
+### 🎯 **Successful Pipeline Execution**
+![Pipeline Success](./screenshoots/p2.png)
+*Azure DevOps pipeline showing successful completion of Build → Push → Update stages (Build: 31s, Push: 18s, Update: 19s)*
+
+### 🔍 **Live Application Interface**
+![Voting App - AWS vs Azure](./screenshots/p4.png)
+*Docker Voting Application successfully deployed and running - "AWS vs Azure!" voting interface*
+
+### 📊 **ArgoCD GitOps Dashboard**
+![ArgoCD Dashboard](./screenshots/p3.png)
+*ArgoCD showing successful GitOps deployment with all microservices synchronized:*
+- **Vote Service**: Healthy and running
+- **Result Service**: Successfully deployed  
+- **Worker Service**: Processing votes
+- **Redis**: Database operational
+- **All Pods**: Running with proper container IDs
+
+### ✅ **Deployment Verification**
+- **Container IDs Visible**: `vote-5cccb6b65d-cglkr` and `vote-7fcf444cc9-8f775`
+- **Auto-sync Enabled**: Real-time GitOps synchronization
+- **Health Status**: All services showing green (healthy) status
+- **Last Sync**: Successfully completed with proper image tags
+
+
 ## 🎯 Project Highlights
 
 ### ✨ Key Features
@@ -218,9 +244,9 @@ Contributions are welcome! Please feel free to submit pull requests or open issu
 
 ## 📞 Contact & Support
 
-**Project Maintainer**: [Your Name]  
-**LinkedIn**: [Your LinkedIn Profile]  
-**Email**: [Your Email]
+**Project Maintainer**: [Mohit Dushyant Matte]  
+**LinkedIn**: [https://www.linkedin.com/in/mohit-matte-a6496a240/]  
+**Email**: [Mattemohit2002@gmail.com]
 
 ---
 
