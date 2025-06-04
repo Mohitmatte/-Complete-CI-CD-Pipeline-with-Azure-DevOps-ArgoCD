@@ -40,11 +40,11 @@ This project demonstrates a comprehensive **DevOps CI/CD pipeline** implementati
 *Azure DevOps pipeline showing successful completion of Build → Push → Update stages (Build: 31s, Push: 18s, Update: 19s)*
 
 ### 🔍 **Live Application Interface**
-![Voting App - AWS vs Azure](./screenshots/p4.png)
+![Voting App - AWS vs Azure](./screenshoots/p4.png)
 *Docker Voting Application successfully deployed and running - "AWS vs Azure!" voting interface*
 
 ### 📊 **ArgoCD GitOps Dashboard**
-![ArgoCD Dashboard](./screenshots/p3.png)
+![ArgoCD Dashboard](./screenshoots/p3.png)
 *ArgoCD showing successful GitOps deployment with all microservices synchronized:*
 - **Vote Service**: Healthy and running
 - **Result Service**: Successfully deployed  
